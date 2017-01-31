@@ -1,18 +1,18 @@
 # newsgate
 Sniffing the news
 
-## We created a tool that gives people insights about the news using NLP and social media. Input a URL and get back google trend data, a bubble chart using the Alchemy Language API's keyword extraction and the top tweets for that article. 
+## We created a tool that gives people insights about the news using NLP and social media. Navigate to an article URL and then use the chrome extension to select 'Report Card'. This will redirect to a report card page which diplays sentiment analysis from Watson API, google trends data, and tops tweets related to the article and article source.
 
 ## Project Vision
-Create a convenient and insightful way for people to make decisions about the validity of news stories. We set out hoping to create an algorithm that would determine the quality of news stories and eliminate fake news. The end goal is 
+Create a convenient and insightful way for people to make decisions about the validity of news stories. We set out hoping to create an algorithm that would determine the quality of news stories and eliminate fake news.
 
 ## Instructions
 ### Running the project
 1) npm install
 2) bower install
-3) cd client and then npm install 
+3) cd client and then npm install
 
-### Do the following: 
+### Do the following:
 
 ### Load Blacklist
 
@@ -39,14 +39,14 @@ Newsgate includes a script to fetch the latest version of the blacklist from "ht
 
 #### Blowing away the Database
 
-This will drop the Mongo database.  
+This will drop the Mongo database.
 
 1) Ensure that Mongo is running<br>
 2) Run 'npm run reset'
 
 ### Add the chrome extension
 1) In chrome://extensions enable developer mode (checkbox in the upper right corner)
-2) drag and drop newsgate/ext folder into the extensions window. 
+2) drag and drop newsgate/ext folder into the extensions window.
 3) the extension should show up in your chrome toolbar
 
 ### Google Trends API - REQUIRED
@@ -74,8 +74,8 @@ To make numerous requests to the Google Trends website, a cookie needs to be sup
 4) Save 'watson_api_key.js' file
 
 
-## Team 
-### Emerson Hum -- Scrum master
-### Forrest Murray -- Product owner
-### Aaron Trank -- Backend guru
-### David An -- D3/Angular ninja 
+## Team
+### Justin Potter
+### Autumn Smith
+### Layne Miao
+### Paige Vogenthaler
